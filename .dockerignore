@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.*
+
+# build output (only if you copy fresh build later)
+dist
+
+# system files
+.DS_Store
+Thumbs.db
+
+# IDE / editor folders
+.vscode
+.idea
+*.sw?
+
+# test / coverage
+coverage
+*.test.*
+*.spec.*
+
+# misc
+*.tgz
+*.gz
+*.zip
